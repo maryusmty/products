@@ -1,0 +1,43 @@
+@media print {
+    thead {
+        background-color:#bfbdbd !important;
+        -webkit-print-color-adjust: exact; 
+    }}
+.green_bg {
+    background-color: lightgreen !important;
+}
+.red_bg {
+    background-color: rgb(255, 79, 79) !important;
+}
+
+.big_container{
+    min-width: 1800px ;
+    max-width: 1800px ;
+    width: 1800px ;
+}
+
+.hr {
+    margin-top: 0px !important;
+}
+
+.modal-lg {
+    width: 1400px !important;
+}
+.table>thead>tr>td, .table>thead>tr>th {
+    padding: 0% !important;
+}
+.table>thead>tr>td>p { 
+    margin-bottom: 0%;
+}
+/* tr{
+    border-bottom: red 2px solid !important;
+} */
+.selected
+{
+    background-color: #666;
+    color: #fff;
+}
+.modal-body {
+    max-height: calc(100vh - 212px);
+    overflow-y: auto;
+}
